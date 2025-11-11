@@ -8,6 +8,7 @@ Concepts Demonstrated
 •	PL/SQL Collections: Using TABLE OF to store multiple station records.
 •	PL/SQL Records: Defining a custom record type for station details.
 •	GOTO Statements: Skipping faulty stations during iteration.
+..................................
 PL/SQL Code 
 DECLARE
   -- Define a record type for a charging station
@@ -43,6 +44,7 @@ BEGIN
     i := i + 1;
   END LOOP;
 END;
+..................................
 
 Expected Output 
 Processing Station 101 at Kigali - Gasabo - Status: Active
